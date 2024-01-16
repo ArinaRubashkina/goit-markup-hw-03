@@ -3,11 +3,23 @@ body{
     color: #434455;
     background-color: #ffffff;
 }
+h1, h2, h3{
+    margin: 0px;
+}
+p{
+    margin: 0px;
+}
 a{
     text-decoration: none;
 }
 ul{
     list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+}
+img{
+    display: block;
+    flex-direction: row;
 }
 nav .logo-name{
     font-family: 'Raleway', sans-serif;
@@ -17,6 +29,8 @@ nav .logo-name{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    padding: 24px 156px;
+    display: flex;
 }
 .logo-accent{
     color: #2E2F42;
@@ -27,6 +41,8 @@ nav .logo-name{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    display: flex;
+    gap: 40px;
 }
 .nav-link:hover,
 .nav-link:focus{
@@ -40,6 +56,8 @@ nav .logo-name{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: flex;
+    padding-right: 156px;
 }
 .info:hover,
 .info:focus{
@@ -54,6 +72,9 @@ nav .logo-name{
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    padding: 188px 472px 48px;
+    display: flex;
+    align-content: flex-start
 }
 .main-button{
     background-color: #4D5AE5;
@@ -63,6 +84,8 @@ nav .logo-name{
     line-height: 1.5;
     cursor: pointer;
     letter-spacing: 0.04em;
+    gap: 10px;
+    padding: 16 px 32 px;
 }
 .main-button:hover,
 .main-button:focus{
@@ -114,4 +137,12 @@ footer .logo-name{
 }
 .logo-accent-two{
     color: #F4F4FD;
+}
+.container { 
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+    }
+.picture{
+    padding-left: 156px;
 }
