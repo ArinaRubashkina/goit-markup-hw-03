@@ -15,7 +15,7 @@ a{
 ul{
     list-style-type: none;
     margin: 0px;
-    padding-left: 0px;
+    padding: 0px;
 }
 img{
     display: block;
@@ -41,8 +41,6 @@ nav .logo-name{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    display: flex;
-    gap: 40px;
 }
 .nav-link:hover,
 .nav-link:focus{
@@ -145,4 +143,24 @@ footer .logo-name{
     }
 .picture{
     padding-left: 156px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-right: 323px;
+}
+.contact-list{
+    display: flex;
+    align-items: center;
 }
