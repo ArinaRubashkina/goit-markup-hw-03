@@ -136,13 +136,13 @@ nav .logo-name{
     position: absolute;
     overflow: hidden;
     clip: rect(0 0 0 0);
-    clip-path: inset(50%);
+    clip-path: inset(100%);
     width: 1px;
     height: 1px;
     margin: -1px;
     padding: 0;
     border: 0;
-    white-space: no-wrap;
+    white-space: nowrap;
 }
 .benefits-list{
     display: flex;
@@ -208,7 +208,7 @@ nav .logo-name{
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 24px;
+    row-gap: 48px;
     padding-bottom: 120px;
     padding-top: 72px;
     border-bottom: 1px solid #E7E9FC;
