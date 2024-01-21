@@ -84,6 +84,8 @@ nav .logo-name{
     letter-spacing: 0.04em;
     gap: 10px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 48px;
     margin-bottom: 188px;
     padding: 16px 32px;
@@ -115,13 +117,12 @@ nav .logo-name{
 }
 .picture{
     background-color: #ffffff;
-    display: inline-flex;
-    padding-bottom: 32px;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 32px;
     margin-bottom: 120px;
+    width: calc((100% - 3*32px)/4);
 }
 .text{
     font-size: 16px;
@@ -179,17 +180,24 @@ header .container{
     gap: 24px;
     margin: 156px 120px;
 }
+.benefit{
+    width: calc((100% - 3*24px)/4);
+}
 .picture-section{
     display: flex;
     margin-top: 120px;
-    justify-content: center;
     gap: 24px;
 }
-.portfolio-picture{
-    display: inline;
+.card-set{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-bottom: 120px;
+    padding-top: 72px;
+    border-bottom: 1px solid #E7E9FC;
 }
-.porfolio-section{
-    display: inline;
+.item{
+    width: calc((100% -120px)/6);
 }
 .footer-section{
     display: flex;
@@ -197,4 +205,9 @@ header .container{
     padding-bottom: 100px;
     padding-right: 1020px;
     padding-left: 156px;
+}
+footer .text{
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
 }
