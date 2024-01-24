@@ -26,7 +26,6 @@ img{
 .header-nav{
     display: flex;
     align-items: center;
-    margin-right: auto;
 }
 .container { 
     max-width: 1158px;
@@ -121,9 +120,8 @@ nav .logo-name{
     padding: 16px 32px;
     border-radius: 4px;
     margin-top: 48px;
-    margin-bottom: 188px;
-    margin-left: 163px;
-    margin-right: 164px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .main-button:hover,
 .main-button:focus{
@@ -179,9 +177,6 @@ nav .logo-name{
 }
 .picture{
     background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
     width: calc((100% - 3*24px)/4);
     border-radius: 0px 0px 4px 4px;
 }
@@ -191,9 +186,15 @@ nav .logo-name{
 .name{
     text-align: center;
     margin-bottom: 8px;
+    color:#2E2F42;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2%;
 }
 .position{
     text-align: center;
+    line-height: 24px;
+    letter-spacing: 2%;
 }
 .text{
     font-size: 16px;
@@ -209,9 +210,6 @@ nav .logo-name{
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    padding-bottom: 120px;
-    padding-top: 72px;
-    border-bottom: 1px solid #E7E9FC;
 }
 .item{
     width: calc((100% - 48px) / 3);
@@ -223,6 +221,10 @@ nav .logo-name{
 }
 .section-title{
     margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #2E2F42;
 }
 .footer-section{
     background-color: #2E2F42;
