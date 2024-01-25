@@ -189,7 +189,8 @@ nav .logo-name{
     color:#2E2F42;
     font-size: 20px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    font-weight: 500;
 }
 .position{
     text-align: center;
@@ -223,8 +224,9 @@ nav .logo-name{
     margin-bottom: 8px;
     font-size: 20px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #2E2F42;
+    font-weight: 500;
 }
 .footer-section{
     background-color: #2E2F42;
